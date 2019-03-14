@@ -1,0 +1,176 @@
+/*General CSS for all html files*/
+body {
+    background-image: linear-gradient(to right, #30E8BF, #FF8235);
+}
+.jumbotron {
+	background-color: white;
+}
+.btn {
+    background-color:#292c2f;
+    color: white;
+    border-color: #292c2f;
+}
+.btn:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+.btn:active {
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+/*homepage html css*/
+#homecontainer {
+	width: 85%;
+}
+#homecontainer p {
+	font-size: 16px;
+}
+
+/*about html css*/
+#aboutcontainer {
+	width: 85%;
+}
+#aboutcontainer p {
+	font-size: 16px;
+}
+
+/*contact html css*/
+#contactcontainer {
+	width: 85%;
+}
+#contactcontainer p {
+	font-size: 16px;
+}
+
+/*signup html css*/
+#signupcontainer {
+	width: 60%;
+}
+.signupinfo input {
+	width: 60%;
+}
+#Organization {
+	margin-left: 10px;
+}
+#FirstName {
+	margin-left: 70px;
+}
+#LastName {
+	margin-left: 70px;
+}
+#email {
+	margin-left: 100px;
+}
+#password {
+	margin-left: 72px;
+}
+#repassword {
+	margin-left: 20px;
+}
+
+/*login html css*/
+input {
+	width: 50%;
+}
+#logincontainer {
+	width: 60%;
+}
+
+/*userinterface html css*/
+#uicontainer {
+	width: 85%;
+}
+#uicontainer p {
+	font-size: 16px;
+}
+
+/*rateEmployee html css*/
+input[type="radio"] {
+	position: relative;
+	right: 12px;
+}
+
+/*settings html css*/
+.settingsbtnlist {
+	width: 15%;
+	margin-left: 50px;
+	margin-top: 43px;
+	text-align: left;
+	float: left;
+}
+#settingscontainer {
+	width: 78%;
+	margin-left: 260px;
+}
+#settingscontainer p {
+	font-size: 16px;
+}
+#firstname, #lastname, #phonenumber, #city, #state, #drop-down {
+	width: 50%;
+}
+#drop-down {
+	height: 30px;
+}
+/*toggle switches*/
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+  }
+  
+  .switch input { 
+	opacity: 0;
+	width: 0;
+	height: 0;
+  }
+  
+  .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  .slider:before {
+	position: absolute;
+	content: "";
+	height: 19px;
+	width: 19px;
+	left: 4px;
+	bottom: 1px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  input:checked + .slider {
+	background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+	border-radius: 34px;
+  }
+  
+  .slider.round:before {
+	border-radius: 50%;
+  }

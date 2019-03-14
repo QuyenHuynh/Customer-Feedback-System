@@ -1,0 +1,120 @@
+/*Creates visible container for footer information*/
+footer {
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 40px 50px;
+	margin-top: 80px;
+}
+.footer-left, .footer-center, .footer-right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+
+/*Left column*/
+.footer-left {
+	width: 30%;
+}
+/* Company logo */
+#minilogo {
+	font: normal 36px 'Open Sans', sans-serif;
+	margin: 0;
+}
+/*Left column links */
+.footer-links a {
+	color: white;
+	margin: 12px 0px 12px;
+	display: inline-block;
+	line-height: 1.8;
+}
+.footer-links a:hover{
+	text-decoration: none;
+	color: white;
+}
+/*Company Copyright*/
+.footer-company-name {
+	font-size: 14px;
+	color: #eeee;
+}
+
+
+/*Center Column*/
+
+/*Center column icons*/
+.footer-center i {
+	background-color: #33383b;
+	color: white;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 25px;
+	vertical-align: middle;
+}
+/*fa-envelope gets its own special properties because font-size 25px is too large*/
+.footer-center i.fa-envelope {
+	font-size: 18px;
+	line-height: 38px;
+}
+/*Text within middle column*/
+.footer-center p {
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+	line-height: 1.5;
+}
+/*Email link*/
+.footer-center p a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+/*Right column*/
+.footer-right {
+	width: 30%;
+	margin-left: 75px;
+}
+/*Right column header*/
+footer .footer-company-about span {
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+/*Right column text*/
+footer .footer-company-about {
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+/*Right column icons*/
+footer .footer-icons {
+	margin-top: 25px;
+}
+footer .footer-icons a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
