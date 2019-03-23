@@ -180,3 +180,36 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+/* forgotpass html css */
+#forgotemail {
+  width: 25%;
+}
+
+/* admin UI html */
+#results {
+  color: white;
+  background-color: #292c2f;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.employeeData {
+  text-align: left;
+  border: .5px solid darkgray;
+  position: relative;
+  bottom: 10px;
+}
+
+/*employee UI html*/
+#myRatings {
+  color: white;
+  background-color: #292c2f;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.ratingsDisplay {
+  text-align: left;
+  border: .5px solid darkgray;
+  position: relative;
+  bottom: 10px;
+}

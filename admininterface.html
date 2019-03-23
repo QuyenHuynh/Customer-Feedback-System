@@ -41,17 +41,46 @@
         </div>
     </nav>
 
-    <div class="container" id="uicontainer">
-            <br>
-            <br>
-            <div class="jumbotron">
-                <center><h1 class="display-4">Welcome!</h1>
-                <br>
-                <a class="btn btn-primary btn-lg" href="rateEmployee.html" role="button">Search for Employee</a>
-                <a class="btn btn-primary btn-lg" href="rateEmployee.html" role="button">View All Ratings</a></center>
+    <div class="container" id="admincontainer">
+        <br>
+        <br>
+        <div class="jumbotron" id="admin-content">
+            <center>
+            <p>Search box: <br><input type="text" name="search" id="searchbox" value="Enter a name or email..."></p>
+            <h3 id="results">Results</h3>
+            <div class="employeeData">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Employee name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Overall Rating</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Quyen Huynh</td>
+                            <td>quyenh@teamfivethirty.com</td>
+                            <td>8.3</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-        </div>
+        </center>
 
+            
+        </div>
+    </div>
+
+    <script>
+
+        $("#search-btn").on("click", function () {
+            $("#admin-content").empty();
+
+        });
+
+
+    </script>
 </body>
 
 
