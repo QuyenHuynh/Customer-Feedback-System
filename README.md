@@ -12,8 +12,8 @@ Employees can then log into their account to view their own survey answers. They
 Admins have the ability to search for employees and view all employee ratings.
 
 I have not yet created:
-* Survey sent confirmation
-* Account creation confirmation
-* Password recovery link sent
-* Employee UI
-* Admin UI
+* Survey sent confirmation alert
+* Account creation confirmation alert
+* Password recovery link sent alert
+
+JavaScript will later be added and the project will be connected to a database.
